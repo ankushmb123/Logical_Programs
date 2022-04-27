@@ -10,9 +10,10 @@ namespace Logical_Programs
     {
         static void Main(string[] args)
         {
-            //Reverese Number
-            ReverseANumber reverseNum = new ReverseANumber();
-            reverseNum.ReverseNumber();
+            //Prime Number
+            Prime_number Primenumber = new Prime_number();
+            Primenumber.Prime();
+
         }
     }
 }
