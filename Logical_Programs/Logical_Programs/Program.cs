@@ -8,10 +8,13 @@ namespace Logical_Programs
 {
     public class Program
     {
+        private static object flibSeries;
+
         static void Main(string[] args)
         {
-            fibonnaciseries.Displayfibonnaciseries();
-            Console.ReadLine();
+            //Perfect Number
+            PerfectNumbercs PerfectNum = new PerfectNumbercs();
+            PerfectNum.CheckPerfectNumber();
         }
     }
 }
