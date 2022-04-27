@@ -8,13 +8,11 @@ namespace Logical_Programs
 {
     public class Program
     {
-        private static object flibSeries;
-
         static void Main(string[] args)
         {
-            //Perfect Number
-            PerfectNumbercs PerfectNum = new PerfectNumbercs();
-            PerfectNum.CheckPerfectNumber();
+            //Reverese Number
+            ReverseANumber reverseNum = new ReverseANumber();
+            reverseNum.ReverseNumber();
         }
     }
 }
