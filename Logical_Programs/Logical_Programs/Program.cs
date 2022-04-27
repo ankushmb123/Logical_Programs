@@ -10,9 +10,8 @@ namespace Logical_Programs
     {
         static void Main(string[] args)
         {
-            //Prime Number
-            Prime_number Primenumber = new Prime_number();
-            Primenumber.Prime();
+            Programstopwatch measuretime = new Programstopwatch();
+            measuretime.Elapsetime();
 
         }
     }
